@@ -1,0 +1,89 @@
+{
+  "hypotheses": {
+    "H1": "SR wins 4/4 unclipped reference scans (1 clipped receiver reference excluded)",
+    "H1b": "快相占比: 砂岩中位 67%, 煤岩中位 65% —— 双族群确认",
+    "H2": "零样本一致性: 砂岩均值 0.1976, 煤岩均值 0.0458 (油域内 0.9000)",
+    "H3": "支撑外质量: T1 煤岩中位 65.0%, T2 煤岩中位 40.5%"
+  },
+  "k1_form_summary": {
+    "n_unclipped": 4,
+    "n_clipped_excluded": 1,
+    "sr_winners": 4,
+    "resid_SR_range": [
+      0.0059,
+      0.0316
+    ],
+    "resid_absIR_range": [
+      0.2365,
+      0.4938
+    ]
+  },
+  "cohort_summary": {
+    "total_invertible_cores": 40,
+    "sandstone": {
+      "n_cores": 4,
+      "agree_zeroshot_mean": 0.1976,
+      "agree_zeroshot_range": [
+        0.1226,
+        0.3564
+      ],
+      "rel_resid_ext_range": [
+        0.0126,
+        0.1389
+      ],
+      "fast_phase_pct_median": 67.0,
+      "fast_phase_pct_range": [
+        58.0,
+        72.6
+      ],
+      "support_out_T1_pct_median": 67.0,
+      "support_out_T2_pct_median": 33.6
+    },
+    "coal_shale": {
+      "n_cores": 32,
+      "agree_zeroshot_mean": 0.0458,
+      "agree_zeroshot_range": [
+        -0.0315,
+        0.1478
+      ],
+      "rel_resid_ext_range": [
+        0.5788,
+        0.8392
+      ],
+      "fast_phase_pct_median": 65.0,
+      "fast_phase_pct_range": [
+        46.6,
+        78.2
+      ],
+      "support_out_T1_pct_median": 65.0,
+      "support_out_T2_pct_median": 40.5
+    },
+    "other_facies": {
+      "n_cores": 4,
+      "agree_zeroshot_mean": 0.0973,
+      "agree_zeroshot_range": [
+        -0.0246,
+        0.215
+      ],
+      "rel_resid_ext_range": [
+        0.7686,
+        0.9043
+      ],
+      "fast_phase_pct_median": 69.0,
+      "fast_phase_pct_range": [
+        64.9,
+        73.5
+      ],
+      "support_out_T1_pct_median": 69.0,
+      "support_out_T2_pct_median": 46.2
+    }
+  },
+  "retest": {
+    "n_pairs": 3,
+    "median": 0.0843
+  },
+  "reference": {
+    "oil_in_domain_agreement": 0.8999769230769231
+  },
+  "policy_note": "Anonymized cohort-level summary only; per-record external 2.0 MHz rock core IDs and individual core rows are withheld under collaborator data-governance policy."
+}

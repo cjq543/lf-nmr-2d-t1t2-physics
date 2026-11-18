@@ -1,0 +1,157 @@
+{
+  "files": [
+    {
+      "group": "A_加热180度",
+      "sample": "亚麻籽油",
+      "peak_T1_ms": 124.52,
+      "peak_T2_ms": 80.309,
+      "frac_T2_lt_1ms_pct": 3.1,
+      "frac_T2_lt_10ms_pct": 4.79,
+      "frac_T1_lt_1ms_pct": 16.45,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1390.642
+    },
+    {
+      "group": "A_加热180度",
+      "sample": "红花籽油",
+      "peak_T1_ms": 124.52,
+      "peak_T2_ms": 100.0,
+      "frac_T2_lt_1ms_pct": 3.33,
+      "frac_T2_lt_10ms_pct": 13.32,
+      "frac_T1_lt_1ms_pct": 24.98,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1457.913
+    },
+    {
+      "group": "A_加热180度",
+      "sample": "菜籽油",
+      "peak_T1_ms": 124.52,
+      "peak_T2_ms": 80.309,
+      "frac_T2_lt_1ms_pct": 3.97,
+      "frac_T2_lt_10ms_pct": 5.11,
+      "frac_T1_lt_1ms_pct": 14.98,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1373.79
+    },
+    {
+      "group": "A_加热180度",
+      "sample": "葵花籽油",
+      "peak_T1_ms": 124.52,
+      "peak_T2_ms": 100.0,
+      "frac_T2_lt_1ms_pct": 2.02,
+      "frac_T2_lt_10ms_pct": 15.76,
+      "frac_T1_lt_1ms_pct": 21.93,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1481.176
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "亚麻籽油",
+      "peak_T1_ms": 155.052,
+      "peak_T2_ms": 100.0,
+      "frac_T2_lt_1ms_pct": 0.27,
+      "frac_T2_lt_10ms_pct": 0.68,
+      "frac_T1_lt_1ms_pct": 4.4,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1417.364
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "红花籽油",
+      "peak_T1_ms": 155.052,
+      "peak_T2_ms": 100.0,
+      "frac_T2_lt_1ms_pct": 0.07,
+      "frac_T2_lt_10ms_pct": 0.35,
+      "frac_T1_lt_1ms_pct": 3.7,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1462.751
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "菜籽油",
+      "peak_T1_ms": 124.52,
+      "peak_T2_ms": 80.309,
+      "frac_T2_lt_1ms_pct": 0.0,
+      "frac_T2_lt_10ms_pct": 0.02,
+      "frac_T1_lt_1ms_pct": 3.54,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1538.937
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "葵花籽油",
+      "peak_T1_ms": 124.52,
+      "peak_T2_ms": 80.309,
+      "frac_T2_lt_1ms_pct": 0.03,
+      "frac_T2_lt_10ms_pct": 0.1,
+      "frac_T1_lt_1ms_pct": 4.07,
+      "t2_axis_min_s": 9.999999999999999e-06,
+      "t2_axis_max_s": 10.0,
+      "total_mass": 1556.281
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "0325_1223",
+      "peak_T1_ms": 0.0,
+      "peak_T2_ms": 71.969,
+      "frac_T2_lt_1ms_pct": 0.0,
+      "frac_T2_lt_10ms_pct": 0.0,
+      "frac_T1_lt_1ms_pct": 100.0,
+      "t2_axis_min_s": 0.0001,
+      "t2_axis_max_s": 100.0,
+      "total_mass": 1398.175
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "0325_1233",
+      "peak_T1_ms": 0.0,
+      "peak_T2_ms": 89.615,
+      "frac_T2_lt_1ms_pct": 0.0,
+      "frac_T2_lt_10ms_pct": 0.0,
+      "frac_T1_lt_1ms_pct": 100.0,
+      "t2_axis_min_s": 0.0001,
+      "t2_axis_max_s": 100.0,
+      "total_mass": 1240.921
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "0325_1238",
+      "peak_T1_ms": 0.0,
+      "peak_T2_ms": 71.969,
+      "frac_T2_lt_1ms_pct": 0.0,
+      "frac_T2_lt_10ms_pct": 0.0,
+      "frac_T1_lt_1ms_pct": 100.0,
+      "t2_axis_min_s": 0.0001,
+      "t2_axis_max_s": 100.0,
+      "total_mass": 1400.314
+    },
+    {
+      "group": "B_加热第二次",
+      "sample": "0325_1244",
+      "peak_T1_ms": 0.0,
+      "peak_T2_ms": 89.615,
+      "frac_T2_lt_1ms_pct": 0.0,
+      "frac_T2_lt_10ms_pct": 0.0,
+      "frac_T1_lt_1ms_pct": 100.0,
+      "t2_axis_min_s": 0.0001,
+      "t2_axis_max_s": 100.0,
+      "total_mass": 1304.825
+    }
+  ],
+  "collapse": {
+    "unique_peaks": 5,
+    "n_files": 12
+  },
+  "summary": {
+    "t2_sub1ms_min": 0.0,
+    "t2_sub1ms_max": 3.97,
+    "t2_sub1ms_mean": 1.07
+  }
+}

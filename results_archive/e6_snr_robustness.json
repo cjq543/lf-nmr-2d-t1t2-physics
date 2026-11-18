@@ -1,0 +1,44 @@
+{
+  "5": {
+    "learned": 0.5584,
+    "baseline": 0.3746,
+    "learned_std": 0.1744,
+    "baseline_std": 0.1273
+  },
+  "10": {
+    "learned": 0.7902,
+    "baseline": 0.6151,
+    "learned_std": 0.1049,
+    "baseline_std": 0.0954
+  },
+  "20": {
+    "learned": 0.9163,
+    "baseline": 0.8006,
+    "learned_std": 0.0486,
+    "baseline_std": 0.0702
+  },
+  "50": {
+    "learned": 0.9606,
+    "baseline": 0.8871,
+    "learned_std": 0.0358,
+    "baseline_std": 0.0648
+  },
+  "100": {
+    "learned": 0.9632,
+    "baseline": 0.8982,
+    "learned_std": 0.0312,
+    "baseline_std": 0.0742
+  },
+  "200": {
+    "learned": 0.9635,
+    "baseline": 0.8891,
+    "learned_std": 0.0339,
+    "baseline_std": 0.0725
+  },
+  "500": {
+    "learned": 0.9658,
+    "baseline": 0.894,
+    "learned_std": 0.0279,
+    "baseline_std": 0.0664
+  }
+}

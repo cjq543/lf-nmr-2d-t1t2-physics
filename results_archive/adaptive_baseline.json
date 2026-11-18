@@ -1,0 +1,541 @@
+{
+  "protocol": {
+    "synth_seed": "20261112 + 100",
+    "synth_n": 200,
+    "metric_domain": "linear area-normalized spectrum",
+    "svd_ridge_tol": 1e-10,
+    "brd_svd_tol": 1e-06,
+    "svd_gcv_lam_grid": "logspace(-5, 0, 81)",
+    "brd_gcv_lam_grid": "logspace(-1, -4.5, 15)",
+    "threads": 1
+  },
+  "synthetic_n200": {
+    "svd_ridge_fixed": {
+      "pearson_mean": 0.8942,
+      "pearson_std": 0.0605,
+      "pearson_median": 0.9062,
+      "t1_peak_err_dex_mean": 0.1077,
+      "t1_peak_err_dex_median": 0.051,
+      "t2_peak_err_dex_mean": 0.0628,
+      "t2_peak_err_dex_median": 0.0,
+      "cpu_total_s": 0.07,
+      "cpu_ms_per_sample": 0.36
+    },
+    "svd_ridge_gcv": {
+      "pearson_mean": 0.9153,
+      "pearson_std": 0.0523,
+      "pearson_median": 0.9295,
+      "t1_peak_err_dex_mean": 0.0916,
+      "t1_peak_err_dex_median": 0.051,
+      "t2_peak_err_dex_mean": 0.0666,
+      "t2_peak_err_dex_median": 0.0398,
+      "cpu_total_s": 0.29,
+      "cpu_ms_per_sample": 1.47,
+      "selected_lam_median": 0.00036517,
+      "selected_lam_min": 0.0001,
+      "selected_lam_max": 0.0023714
+    },
+    "brd_nnls_fixed": {
+      "pearson_mean": 0.9476,
+      "pearson_std": 0.0333,
+      "pearson_median": 0.9592,
+      "t1_peak_err_dex_mean": 0.088,
+      "t1_peak_err_dex_median": 0.0,
+      "t2_peak_err_dex_mean": 0.0527,
+      "t2_peak_err_dex_median": 0.0,
+      "cpu_total_s": 19.68,
+      "cpu_ms_per_sample": 98.39
+    },
+    "brd_nnls_gcv": {
+      "pearson_mean": 0.9358,
+      "pearson_std": 0.0986,
+      "pearson_median": 0.9668,
+      "t1_peak_err_dex_mean": 0.0755,
+      "t1_peak_err_dex_median": 0.051,
+      "t2_peak_err_dex_mean": 0.0706,
+      "t2_peak_err_dex_median": 0.0398,
+      "cpu_total_s": 93.23,
+      "cpu_ms_per_sample": 466.14,
+      "selected_lam_median": 0.00031623,
+      "selected_lam_min": 3.1623e-05,
+      "selected_lam_max": 0.0017783
+    },
+    "v2_frozen": {
+      "pearson_mean": 0.9648,
+      "pearson_std": 0.0324,
+      "pearson_median": 0.977,
+      "t1_peak_err_dex_mean": 0.0865,
+      "t1_peak_err_dex_median": 0.0,
+      "t2_peak_err_dex_mean": 0.0443,
+      "t2_peak_err_dex_median": 0.0,
+      "cpu_total_s": 0.91,
+      "cpu_ms_per_sample": 4.53
+    }
+  },
+  "real_n13": {
+    "n_samples": 13,
+    "mean_r_v2_vs_base": 0.9,
+    "mean_r_v2_vs_svd_gcv": 0.5359,
+    "mean_r_v2_vs_brd_fix": 0.8336,
+    "mean_r_v2_vs_brd_gcv": 0.311,
+    "mean_r_brd_gcv_vs_base": 0.2356,
+    "mean_r_svd_gcv_vs_base": 0.541,
+    "samples": [
+      {
+        "name": "乙酸松油酯",
+        "nti": 20,
+        "nech": 2000,
+        "r_v2_vs_base": 0.8292,
+        "r_v2_vs_svd_gcv": 0.1142,
+        "r_v2_vs_brd_fix": 0.7523,
+        "r_v2_vs_brd_gcv": 0.2772,
+        "r_brd_gcv_vs_base": 0.1884,
+        "r_svd_gcv_vs_base": 0.1108,
+        "svd_gcv_lam": 1e-05,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            549.3,
+            480.5
+          ],
+          "svd_gcv": [
+            9.0,
+            577.1
+          ],
+          "brd_fixed": [
+            488.4,
+            438.5
+          ],
+          "brd_gcv": [
+            488.4,
+            526.6
+          ],
+          "v2": [
+            549.3,
+            480.5
+          ]
+        }
+      },
+      {
+        "name": "亚麻籽油",
+        "nti": 10,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9276,
+        "r_v2_vs_svd_gcv": 0.9395,
+        "r_v2_vs_brd_fix": 0.8108,
+        "r_v2_vs_brd_gcv": 0.2518,
+        "r_brd_gcv_vs_base": 0.2027,
+        "r_svd_gcv_vs_base": 0.9671,
+        "svd_gcv_lam": 0.00027384,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            169.7,
+            101.3
+          ],
+          "svd_gcv": [
+            150.9,
+            92.4
+          ],
+          "brd_fixed": [
+            134.1,
+            92.4
+          ],
+          "brd_gcv": [
+            488.4,
+            77.0
+          ],
+          "v2": [
+            150.9,
+            101.3
+          ]
+        }
+      },
+      {
+        "name": "大豆油",
+        "nti": 10,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9288,
+        "r_v2_vs_svd_gcv": 0.8924,
+        "r_v2_vs_brd_fix": 0.8032,
+        "r_v2_vs_brd_gcv": 0.2611,
+        "r_brd_gcv_vs_base": 0.2078,
+        "r_svd_gcv_vs_base": 0.9184,
+        "svd_gcv_lam": 0.00020535,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            150.9,
+            101.3
+          ],
+          "svd_gcv": [
+            119.3,
+            92.4
+          ],
+          "brd_fixed": [
+            343.3,
+            84.4
+          ],
+          "brd_gcv": [
+            94.3,
+            77.0
+          ],
+          "v2": [
+            134.1,
+            92.4
+          ]
+        }
+      },
+      {
+        "name": "椰油胺",
+        "nti": 20,
+        "nech": 2000,
+        "r_v2_vs_base": 0.7699,
+        "r_v2_vs_svd_gcv": 0.1781,
+        "r_v2_vs_brd_fix": 0.8314,
+        "r_v2_vs_brd_gcv": 0.3102,
+        "r_brd_gcv_vs_base": 0.1851,
+        "r_svd_gcv_vs_base": 0.1817,
+        "svd_gcv_lam": 1e-05,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            694.8,
+            693.1
+          ],
+          "svd_gcv": [
+            9.0,
+            1731.8
+          ],
+          "brd_fixed": [
+            617.8,
+            759.6
+          ],
+          "brd_gcv": [
+            617.8,
+            632.5
+          ],
+          "v2": [
+            694.8,
+            759.6
+          ]
+        }
+      },
+      {
+        "name": "橄榄油",
+        "nti": 20,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9252,
+        "r_v2_vs_svd_gcv": 0.1137,
+        "r_v2_vs_brd_fix": 0.8437,
+        "r_v2_vs_brd_gcv": 0.3185,
+        "r_brd_gcv_vs_base": 0.2569,
+        "r_svd_gcv_vs_base": 0.0801,
+        "svd_gcv_lam": 1e-05,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            134.1,
+            84.4
+          ],
+          "svd_gcv": [
+            8.0,
+            0.8
+          ],
+          "brd_fixed": [
+            134.1,
+            77.0
+          ],
+          "brd_gcv": [
+            271.5,
+            64.1
+          ],
+          "v2": [
+            134.1,
+            84.4
+          ]
+        }
+      },
+      {
+        "name": "玉米油",
+        "nti": 10,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9296,
+        "r_v2_vs_svd_gcv": 0.9385,
+        "r_v2_vs_brd_fix": 0.8099,
+        "r_v2_vs_brd_gcv": 0.2619,
+        "r_brd_gcv_vs_base": 0.2081,
+        "r_svd_gcv_vs_base": 0.9737,
+        "svd_gcv_lam": 0.00031623,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            150.9,
+            84.4
+          ],
+          "svd_gcv": [
+            169.7,
+            84.4
+          ],
+          "brd_fixed": [
+            305.3,
+            77.0
+          ],
+          "brd_gcv": [
+            94.3,
+            70.2
+          ],
+          "v2": [
+            150.9,
+            84.4
+          ]
+        }
+      },
+      {
+        "name": "环氧大豆油",
+        "nti": 20,
+        "nech": 600,
+        "r_v2_vs_base": 0.9086,
+        "r_v2_vs_svd_gcv": 0.9241,
+        "r_v2_vs_brd_fix": 0.9222,
+        "r_v2_vs_brd_gcv": 0.4493,
+        "r_brd_gcv_vs_base": 0.3494,
+        "r_svd_gcv_vs_base": 0.9311,
+        "svd_gcv_lam": 0.00017783,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            66.3,
+            28.1
+          ],
+          "svd_gcv": [
+            66.3,
+            25.6
+          ],
+          "brd_fixed": [
+            74.6,
+            25.6
+          ],
+          "brd_gcv": [
+            52.4,
+            21.4
+          ],
+          "v2": [
+            66.3,
+            28.1
+          ]
+        }
+      },
+      {
+        "name": "甘油",
+        "nti": 20,
+        "nech": 600,
+        "r_v2_vs_base": 0.8592,
+        "r_v2_vs_svd_gcv": 0.943,
+        "r_v2_vs_brd_fix": 0.9624,
+        "r_v2_vs_brd_gcv": 0.5597,
+        "r_brd_gcv_vs_base": 0.3907,
+        "r_svd_gcv_vs_base": 0.8901,
+        "svd_gcv_lam": 0.0001,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            41.4,
+            23.4
+          ],
+          "svd_gcv": [
+            41.4,
+            23.4
+          ],
+          "brd_fixed": [
+            41.4,
+            23.4
+          ],
+          "brd_gcv": [
+            36.8,
+            21.4
+          ],
+          "v2": [
+            41.4,
+            23.4
+          ]
+        }
+      },
+      {
+        "name": "红花籽油",
+        "nti": 10,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9209,
+        "r_v2_vs_svd_gcv": -0.008,
+        "r_v2_vs_brd_fix": 0.8263,
+        "r_v2_vs_brd_gcv": 0.2359,
+        "r_brd_gcv_vs_base": 0.186,
+        "r_svd_gcv_vs_base": 0.0179,
+        "svd_gcv_lam": 1e-05,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            169.7,
+            92.4
+          ],
+          "svd_gcv": [
+            10.1,
+            3000.0
+          ],
+          "brd_fixed": [
+            386.1,
+            84.4
+          ],
+          "brd_gcv": [
+            386.1,
+            365.1
+          ],
+          "v2": [
+            150.9,
+            92.4
+          ]
+        }
+      },
+      {
+        "name": "芝麻油",
+        "nti": 20,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9245,
+        "r_v2_vs_svd_gcv": 0.0336,
+        "r_v2_vs_brd_fix": 0.8052,
+        "r_v2_vs_brd_gcv": 0.2693,
+        "r_brd_gcv_vs_base": 0.2125,
+        "r_svd_gcv_vs_base": 0.0258,
+        "svd_gcv_lam": 1e-05,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            134.1,
+            84.4
+          ],
+          "svd_gcv": [
+            9.0,
+            277.4
+          ],
+          "brd_fixed": [
+            271.5,
+            70.2
+          ],
+          "brd_gcv": [
+            305.3,
+            277.4
+          ],
+          "v2": [
+            119.3,
+            84.4
+          ]
+        }
+      },
+      {
+        "name": "花生油",
+        "nti": 20,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9238,
+        "r_v2_vs_svd_gcv": 0.903,
+        "r_v2_vs_brd_fix": 0.8326,
+        "r_v2_vs_brd_gcv": 0.2899,
+        "r_brd_gcv_vs_base": 0.2278,
+        "r_svd_gcv_vs_base": 0.88,
+        "svd_gcv_lam": 0.00011548,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            119.3,
+            77.0
+          ],
+          "svd_gcv": [
+            119.3,
+            84.4
+          ],
+          "brd_fixed": [
+            271.5,
+            70.2
+          ],
+          "brd_gcv": [
+            271.5,
+            277.4
+          ],
+          "v2": [
+            119.3,
+            84.4
+          ]
+        }
+      },
+      {
+        "name": "菜籽油",
+        "nti": 10,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9208,
+        "r_v2_vs_svd_gcv": 0.0507,
+        "r_v2_vs_brd_fix": 0.7984,
+        "r_v2_vs_brd_gcv": 0.2489,
+        "r_brd_gcv_vs_base": 0.2,
+        "r_svd_gcv_vs_base": 0.0716,
+        "svd_gcv_lam": 1e-05,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            150.9,
+            92.4
+          ],
+          "svd_gcv": [
+            10.1,
+            277.4
+          ],
+          "brd_fixed": [
+            119.3,
+            84.4
+          ],
+          "brd_gcv": [
+            106.1,
+            70.2
+          ],
+          "v2": [
+            134.1,
+            92.4
+          ]
+        }
+      },
+      {
+        "name": "葵花籽油",
+        "nti": 10,
+        "nech": 2000,
+        "r_v2_vs_base": 0.9316,
+        "r_v2_vs_svd_gcv": 0.9439,
+        "r_v2_vs_brd_fix": 0.8378,
+        "r_v2_vs_brd_gcv": 0.3094,
+        "r_brd_gcv_vs_base": 0.248,
+        "r_svd_gcv_vs_base": 0.9844,
+        "svd_gcv_lam": 0.00036517,
+        "brd_gcv_lam": 3.1623e-05,
+        "peaks_ms": {
+          "base_fixed": [
+            150.9,
+            92.4
+          ],
+          "svd_gcv": [
+            150.9,
+            84.4
+          ],
+          "brd_fixed": [
+            271.5,
+            77.0
+          ],
+          "brd_gcv": [
+            343.3,
+            70.2
+          ],
+          "v2": [
+            150.9,
+            92.4
+          ]
+        }
+      }
+    ]
+  }
+}

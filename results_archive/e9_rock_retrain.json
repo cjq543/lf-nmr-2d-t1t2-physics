@@ -1,0 +1,62 @@
+{
+  "hypotheses": {
+    "H1": {
+      "v2rock_pearson": 0.5945,
+      "baseline_pearson": 0.331,
+      "v2rock_t1err": [
+        0.6394,
+        0.1064
+      ],
+      "v2rock_t2err": [
+        0.5355,
+        0.1136
+      ],
+      "baseline_t1err": [
+        1.267,
+        0.6383
+      ],
+      "baseline_t2err": [
+        0.7799,
+        0.2273
+      ]
+    },
+    "H2_sandstone_summary": {
+      "n_cores": 4,
+      "mean_r_v2rock_vs_baseline": 0.4248,
+      "r_range": [
+        0.2501,
+        0.5773
+      ],
+      "baseline_resid_range": [
+        0.0126,
+        0.139
+      ],
+      "fast_frac_v2rock_range": [
+        51.5,
+        92.8
+      ],
+      "fast_frac_baseline_range": [
+        56.2,
+        68.2
+      ]
+    },
+    "H4_coal_summary": {
+      "n_pairs": 3,
+      "median_resid": 0.7164,
+      "retest_median": 0.1222
+    },
+    "meta": {
+      "grid": "T1 0.05-5000ms×48 / T2 0.02-5000ms×96",
+      "kernel": "SR",
+      "lam": 0.0001,
+      "device": "cuda",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "steps": 4000
+    }
+  },
+  "policy_note": "Synthetic wide-grid H1 benchmark preserved in full; external 2.0 MHz rock results are anonymized at cohort level without per-core identifiers."
+}

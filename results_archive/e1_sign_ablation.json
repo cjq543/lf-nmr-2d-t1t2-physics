@@ -1,0 +1,27 @@
+{
+  "signed_seed2": {
+    "pearson": 0.9633321681239991,
+    "t1_err_mean": 0.07755040028045737,
+    "t1_err_median": 0.05102000018451136
+  },
+  "magnitude_seed1": {
+    "pearson": 0.7428269995328679,
+    "t1_err_mean": 0.18545770067069905,
+    "t1_err_median": 0.051020000184511805
+  },
+  "magnitude_seed2": {
+    "pearson": 0.8166792334604542,
+    "t1_err_mean": 0.17678430063933212,
+    "t1_err_median": 0.051020000184511805
+  },
+  "signed_mean": {
+    "pearson": 0.9633,
+    "t1_err_mean": 0.078,
+    "t1_err_median": 0.051
+  },
+  "magnitude_mean": {
+    "pearson": 0.7798,
+    "t1_err_mean": 0.181,
+    "t1_err_median": 0.051
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "shape_ranks": {
+    "20x2000": {
+      "1e-4": {
+        "f64": {
+          "r1": 9,
+          "r2": 14,
+          "prod": 126,
+          "joint": 72
+        },
+        "f32": {
+          "r1": 9,
+          "r2": 14,
+          "prod": 126,
+          "joint": 72
+        }
+      },
+      "1e-6": {
+        "f64": {
+          "r1": 11,
+          "r2": 21,
+          "prod": 231,
+          "joint": 145
+        },
+        "f32": {
+          "r1": 11,
+          "r2": 21,
+          "prod": 231,
+          "joint": 145
+        }
+      },
+      "1e-10": {
+        "f64": {
+          "r1": 13,
+          "r2": 34,
+          "prod": 442,
+          "joint": 315
+        },
+        "f32": {
+          "r1": 20,
+          "r2": 96,
+          "prod": 1920,
+          "joint": 815
+        }
+      }
+    },
+    "20x600": {
+      "1e-4": {
+        "f64": {
+          "r1": 9,
+          "r2": 12,
+          "prod": 108,
+          "joint": 61
+        },
+        "f32": {
+          "r1": 9,
+          "r2": 12,
+          "prod": 108,
+          "joint": 61
+        }
+      },
+      "1e-6": {
+        "f64": {
+          "r1": 11,
+          "r2": 18,
+          "prod": 198,
+          "joint": 124
+        },
+        "f32": {
+          "r1": 11,
+          "r2": 18,
+          "prod": 198,
+          "joint": 124
+        }
+      },
+      "1e-10": {
+        "f64": {
+          "r1": 13,
+          "r2": 29,
+          "prod": 377,
+          "joint": 266
+        },
+        "f32": {
+          "r1": 20,
+          "r2": 96,
+          "prod": 1920,
+          "joint": 796
+        }
+      }
+    },
+    "10x2000": {
+      "1e-4": {
+        "f64": {
+          "r1": 7,
+          "r2": 14,
+          "prod": 98,
+          "joint": 66
+        },
+        "f32": {
+          "r1": 7,
+          "r2": 14,
+          "prod": 98,
+          "joint": 66
+        }
+      },
+      "1e-6": {
+        "f64": {
+          "r1": 8,
+          "r2": 21,
+          "prod": 168,
+          "joint": 118
+        },
+        "f32": {
+          "r1": 8,
+          "r2": 21,
+          "prod": 168,
+          "joint": 118
+        }
+      },
+      "1e-10": {
+        "f64": {
+          "r1": 9,
+          "r2": 34,
+          "prod": 306,
+          "joint": 235
+        },
+        "f32": {
+          "r1": 10,
+          "r2": 96,
+          "prod": 960,
+          "joint": 637
+        }
+      }
+    }
+  },
+  "synthetic_n200": {
+    "dims_f32": [
+      20,
+      96
+    ],
+    "dims_f64_tol_1e10": [
+      13,
+      34
+    ],
+    "r_vs_truth_f32_mean": 0.964808,
+    "r_vs_truth_f64_mean": 0.964808,
+    "max_abs_diff_in_r_vs_truth": 3.003e-06,
+    "base_rel_l2_mean": 4.663e-05,
+    "base_rel_l2_max": 0.0002715,
+    "v2_rel_l2_mean": 2.921e-05,
+    "v2_rel_l2_max": 0.0003051,
+    "v2_pair_r_min": 0.99999995,
+    "peak_changes_count": 0
+  },
+  "real_n13": {
+    "max_v2_rel_l2": 3.873e-05,
+    "max_base_rel_l2": 6.716e-05,
+    "min_v2_pair_r": 1.0,
+    "all_peaks_identical": true,
+    "all_t1_fwhm_identical": true,
+    "mean_r_v2f32_vs_basef64": 0.899969,
+    "rows": [
+      {
+        "name": "乙酸松油酯",
+        "shape": [
+          20,
+          2000
+        ],
+        "dims_f32": [
+          20,
+          96
+        ],
+        "dims_f64": [
+          13,
+          34
+        ],
+        "base_rel_l2": 1.857e-05,
+        "v2_rel_l2": 1.096e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.829233
+      },
+      {
+        "name": "亚麻籽油",
+        "shape": [
+          10,
+          2000
+        ],
+        "dims_f32": [
+          10,
+          96
+        ],
+        "dims_f64": [
+          9,
+          34
+        ],
+        "base_rel_l2": 6.716e-05,
+        "v2_rel_l2": 3.873e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.927584
+      },
+      {
+        "name": "大豆油",
+        "shape": [
+          10,
+          2000
+        ],
+        "dims_f32": [
+          10,
+          96
+        ],
+        "dims_f64": [
+          9,
+          34
+        ],
+        "base_rel_l2": 6.146e-05,
+        "v2_rel_l2": 3.361e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.928769
+      },
+      {
+        "name": "椰油胺",
+        "shape": [
+          20,
+          2000
+        ],
+        "dims_f32": [
+          20,
+          96
+        ],
+        "dims_f64": [
+          13,
+          34
+        ],
+        "base_rel_l2": 2.524e-05,
+        "v2_rel_l2": 1.253e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.769896
+      },
+      {
+        "name": "橄榄油",
+        "shape": [
+          20,
+          2000
+        ],
+        "dims_f32": [
+          20,
+          96
+        ],
+        "dims_f64": [
+          13,
+          34
+        ],
+        "base_rel_l2": 1.854e-05,
+        "v2_rel_l2": 9.872e-06,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.9252
+      },
+      {
+        "name": "玉米油",
+        "shape": [
+          10,
+          2000
+        ],
+        "dims_f32": [
+          10,
+          96
+        ],
+        "dims_f64": [
+          9,
+          34
+        ],
+        "base_rel_l2": 4.643e-05,
+        "v2_rel_l2": 2.787e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.929617
+      },
+      {
+        "name": "环氧大豆油",
+        "shape": [
+          20,
+          600
+        ],
+        "dims_f32": [
+          20,
+          96
+        ],
+        "dims_f64": [
+          13,
+          29
+        ],
+        "base_rel_l2": 4.245e-05,
+        "v2_rel_l2": 2.233e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.908573
+      },
+      {
+        "name": "甘油",
+        "shape": [
+          20,
+          600
+        ],
+        "dims_f32": [
+          20,
+          96
+        ],
+        "dims_f64": [
+          13,
+          29
+        ],
+        "base_rel_l2": 2.144e-05,
+        "v2_rel_l2": 9.848e-06,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.859179
+      },
+      {
+        "name": "红花籽油",
+        "shape": [
+          10,
+          2000
+        ],
+        "dims_f32": [
+          10,
+          96
+        ],
+        "dims_f64": [
+          9,
+          34
+        ],
+        "base_rel_l2": 3.525e-05,
+        "v2_rel_l2": 1.552e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.920924
+      },
+      {
+        "name": "芝麻油",
+        "shape": [
+          20,
+          2000
+        ],
+        "dims_f32": [
+          20,
+          96
+        ],
+        "dims_f64": [
+          13,
+          34
+        ],
+        "base_rel_l2": 3.748e-05,
+        "v2_rel_l2": 1.749e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.924498
+      },
+      {
+        "name": "花生油",
+        "shape": [
+          20,
+          2000
+        ],
+        "dims_f32": [
+          20,
+          96
+        ],
+        "dims_f64": [
+          13,
+          34
+        ],
+        "base_rel_l2": 3.059e-05,
+        "v2_rel_l2": 1.281e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.923793
+      },
+      {
+        "name": "菜籽油",
+        "shape": [
+          10,
+          2000
+        ],
+        "dims_f32": [
+          10,
+          96
+        ],
+        "dims_f64": [
+          9,
+          34
+        ],
+        "base_rel_l2": 3.083e-05,
+        "v2_rel_l2": 1.865e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.92075
+      },
+      {
+        "name": "葵花籽油",
+        "shape": [
+          10,
+          2000
+        ],
+        "dims_f32": [
+          10,
+          96
+        ],
+        "dims_f64": [
+          9,
+          34
+        ],
+        "base_rel_l2": 3.055e-05,
+        "v2_rel_l2": 1.286e-05,
+        "v2_pair_r": 1.0,
+        "peak_match": true,
+        "t1_fwhm_match": true,
+        "r_v2f32_vs_basef64": 0.931579
+      }
+    ]
+  }
+}

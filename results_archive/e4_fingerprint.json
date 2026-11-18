@@ -1,0 +1,237 @@
+{
+  "features": {
+    "乙酸松油酯": {
+      "t1_peak": 549.3,
+      "t2_peak": 480.5,
+      "ratio": 1.14,
+      "t1_fwhm": 840.1,
+      "t2_fwhm": 634.8,
+      "mean_logT1": 2.614,
+      "mean_logT2": 2.637,
+      "t1t2_xcorr": 0.231,
+      "frac_shortT2": 0.049,
+      "frac_longT2": 0.803
+    },
+    "亚麻籽油": {
+      "t1_peak": 169.7,
+      "t2_peak": 101.3,
+      "ratio": 1.67,
+      "t1_fwhm": 628.5,
+      "t2_fwhm": 431.8,
+      "mean_logT1": 2.268,
+      "mean_logT2": 2.137,
+      "t1t2_xcorr": 0.179,
+      "frac_shortT2": 0.164,
+      "frac_longT2": 0.26
+    },
+    "大豆油": {
+      "t1_peak": 150.9,
+      "t2_peak": 101.3,
+      "ratio": 1.49,
+      "t1_fwhm": 558.8,
+      "t2_fwhm": 351.4,
+      "mean_logT1": 2.216,
+      "mean_logT2": 2.124,
+      "t1t2_xcorr": 0.203,
+      "frac_shortT2": 0.188,
+      "frac_longT2": 0.226
+    },
+    "椰油胺": {
+      "t1_peak": 694.8,
+      "t2_peak": 693.1,
+      "ratio": 1.0,
+      "t1_fwhm": 864.0,
+      "t2_fwhm": 1366.7,
+      "mean_logT1": 2.643,
+      "mean_logT2": 2.746,
+      "t1t2_xcorr": 0.311,
+      "frac_shortT2": 0.047,
+      "frac_longT2": 0.853
+    },
+    "橄榄油": {
+      "t1_peak": 134.1,
+      "t2_peak": 84.4,
+      "ratio": 1.59,
+      "t1_fwhm": 284.4,
+      "t2_fwhm": 236.9,
+      "mean_logT1": 2.129,
+      "mean_logT2": 2.021,
+      "t1t2_xcorr": -0.003,
+      "frac_shortT2": 0.249,
+      "frac_longT2": 0.138
+    },
+    "玉米油": {
+      "t1_peak": 150.9,
+      "t2_peak": 84.4,
+      "ratio": 1.79,
+      "t1_fwhm": 429.5,
+      "t2_fwhm": 359.6,
+      "mean_logT1": 2.196,
+      "mean_logT2": 2.086,
+      "t1t2_xcorr": 0.211,
+      "frac_shortT2": 0.218,
+      "frac_longT2": 0.192
+    },
+    "环氧大豆油": {
+      "t1_peak": 66.3,
+      "t2_peak": 28.1,
+      "ratio": 2.36,
+      "t1_fwhm": 118.1,
+      "t2_fwhm": 50.6,
+      "mean_logT1": 1.851,
+      "mean_logT2": 1.508,
+      "t1t2_xcorr": 0.023,
+      "frac_shortT2": 0.792,
+      "frac_longT2": 0.026
+    },
+    "甘油": {
+      "t1_peak": 41.4,
+      "t2_peak": 23.4,
+      "ratio": 1.77,
+      "t1_fwhm": 65.6,
+      "t2_fwhm": 28.2,
+      "mean_logT1": 1.689,
+      "mean_logT2": 1.403,
+      "t1t2_xcorr": 0.062,
+      "frac_shortT2": 0.9,
+      "frac_longT2": 0.027
+    },
+    "红花籽油": {
+      "t1_peak": 169.7,
+      "t2_peak": 92.4,
+      "ratio": 1.84,
+      "t1_fwhm": 551.5,
+      "t2_fwhm": 436.1,
+      "mean_logT1": 2.227,
+      "mean_logT2": 2.146,
+      "t1t2_xcorr": 0.222,
+      "frac_shortT2": 0.18,
+      "frac_longT2": 0.252
+    },
+    "芝麻油": {
+      "t1_peak": 134.1,
+      "t2_peak": 84.4,
+      "ratio": 1.59,
+      "t1_fwhm": 333.7,
+      "t2_fwhm": 292.6,
+      "mean_logT1": 2.152,
+      "mean_logT2": 2.036,
+      "t1t2_xcorr": 0.042,
+      "frac_shortT2": 0.25,
+      "frac_longT2": 0.158
+    },
+    "花生油": {
+      "t1_peak": 119.3,
+      "t2_peak": 77.0,
+      "ratio": 1.55,
+      "t1_fwhm": 333.7,
+      "t2_fwhm": 292.6,
+      "mean_logT1": 2.151,
+      "mean_logT2": 2.018,
+      "t1t2_xcorr": 0.17,
+      "frac_shortT2": 0.263,
+      "frac_longT2": 0.148
+    },
+    "菜籽油": {
+      "t1_peak": 150.9,
+      "t2_peak": 92.4,
+      "ratio": 1.63,
+      "t1_fwhm": 375.3,
+      "t2_fwhm": 288.7,
+      "mean_logT1": 2.154,
+      "mean_logT2": 2.081,
+      "t1t2_xcorr": 0.078,
+      "frac_shortT2": 0.211,
+      "frac_longT2": 0.175
+    },
+    "葵花籽油": {
+      "t1_peak": 150.9,
+      "t2_peak": 92.4,
+      "ratio": 1.63,
+      "t1_fwhm": 375.3,
+      "t2_fwhm": 324.6,
+      "mean_logT1": 2.184,
+      "mean_logT2": 2.049,
+      "t1t2_xcorr": 0.23,
+      "frac_shortT2": 0.228,
+      "frac_longT2": 0.171
+    }
+  },
+  "chemistry_correlation": {
+    "t2_peak_vs_PUFA": {
+      "rho": 0.581,
+      "p": 0.131
+    },
+    "t2_peak_vs_SFA": {
+      "rho": -0.506,
+      "p": 0.2
+    },
+    "t1_peak_vs_PUFA": {
+      "rho": 0.817,
+      "p": 0.013
+    },
+    "t1_peak_vs_SFA": {
+      "rho": -0.756,
+      "p": 0.03
+    },
+    "ratio_vs_PUFA": {
+      "rho": 0.527,
+      "p": 0.18
+    },
+    "ratio_vs_SFA": {
+      "rho": -0.667,
+      "p": 0.071
+    },
+    "t2_fwhm_vs_PUFA": {
+      "rho": 0.905,
+      "p": 0.002
+    },
+    "t2_fwhm_vs_SFA": {
+      "rho": -0.325,
+      "p": 0.432
+    }
+  },
+  "chemistry_correlation_n9": {
+    "t1_peak_vs_PUFA": {
+      "rho": 0.791,
+      "p": 0.0112
+    },
+    "t1_peak_vs_SFA": {
+      "rho": -0.824,
+      "p": 0.0063
+    },
+    "t2_peak_vs_PUFA": {
+      "rho": 0.607,
+      "p": 0.0833
+    },
+    "t2_peak_vs_SFA": {
+      "rho": -0.629,
+      "p": 0.0695
+    },
+    "t1_fwhm_vs_PUFA": {
+      "rho": 0.79,
+      "p": 0.0113
+    },
+    "t1_fwhm_vs_SFA": {
+      "rho": -0.534,
+      "p": 0.1387
+    },
+    "t2_fwhm_vs_PUFA": {
+      "rho": 0.929,
+      "p": 0.0003
+    },
+    "t2_fwhm_vs_SFA": {
+      "rho": -0.346,
+      "p": 0.3617
+    },
+    "ratio_vs_PUFA": {
+      "rho": 0.521,
+      "p": 0.1503
+    },
+    "ratio_vs_SFA": {
+      "rho": -0.716,
+      "p": 0.03
+    }
+  },
+  "sesame_composition_source": "Oboulbiga et al. 2023, PMC10292629 (15.52/42.86/41.32)"
+}

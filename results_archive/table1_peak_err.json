@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "t1_peak_err_dex_mean": 0.1077,
+    "t1_peak_err_dex_median": 0.051,
+    "t2_peak_err_dex_mean": 0.0628,
+    "t2_peak_err_dex_median": 0.0
+  },
+  "v2": {
+    "t1_peak_err_dex_mean": 0.0865,
+    "t1_peak_err_dex_median": 0.0,
+    "t2_peak_err_dex_mean": 0.0443,
+    "t2_peak_err_dex_median": 0.0
+  },
+  "pearson_check": {
+    "v2": 0.9648,
+    "baseline": 0.8942
+  }
+}

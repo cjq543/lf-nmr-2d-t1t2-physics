@@ -1,0 +1,32 @@
+{
+  "1": {
+    "learned": 0.9724,
+    "baseline": 0.862,
+    "learned_std": 0.025,
+    "baseline_std": 0.0756
+  },
+  "2": {
+    "learned": 0.9638,
+    "baseline": 0.9073,
+    "learned_std": 0.0305,
+    "baseline_std": 0.0589
+  },
+  "3": {
+    "learned": 0.9603,
+    "baseline": 0.9146,
+    "learned_std": 0.0269,
+    "baseline_std": 0.0408
+  },
+  "4": {
+    "learned": 0.9642,
+    "baseline": 0.9261,
+    "learned_std": 0.0223,
+    "baseline_std": 0.0319
+  },
+  "5": {
+    "learned": 0.9594,
+    "baseline": 0.9333,
+    "learned_std": 0.023,
+    "baseline_std": 0.0314
+  }
+}

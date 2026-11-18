@@ -1,0 +1,135 @@
+{
+  "mean_agreement": 0.8999769230769231,
+  "samples": [
+    {
+      "name": "乙酸松油酯",
+      "nti": 20,
+      "agree_pearson": 0.8292,
+      "agree_pearson_log1p": 0.7665,
+      "base_T1": 549.3,
+      "base_T2": 480.5,
+      "learned_T1": 549.3,
+      "learned_T2": 480.5
+    },
+    {
+      "name": "亚麻籽油",
+      "nti": 10,
+      "agree_pearson": 0.9276,
+      "agree_pearson_log1p": 0.9006,
+      "base_T1": 169.7,
+      "base_T2": 101.3,
+      "learned_T1": 150.9,
+      "learned_T2": 101.3
+    },
+    {
+      "name": "大豆油",
+      "nti": 10,
+      "agree_pearson": 0.9288,
+      "agree_pearson_log1p": 0.8918,
+      "base_T1": 150.9,
+      "base_T2": 101.3,
+      "learned_T1": 134.1,
+      "learned_T2": 92.4
+    },
+    {
+      "name": "椰油胺",
+      "nti": 20,
+      "agree_pearson": 0.7699,
+      "agree_pearson_log1p": 0.701,
+      "base_T1": 694.8,
+      "base_T2": 693.1,
+      "learned_T1": 694.8,
+      "learned_T2": 759.6
+    },
+    {
+      "name": "橄榄油",
+      "nti": 20,
+      "agree_pearson": 0.9252,
+      "agree_pearson_log1p": 0.894,
+      "base_T1": 134.1,
+      "base_T2": 84.4,
+      "learned_T1": 134.1,
+      "learned_T2": 84.4
+    },
+    {
+      "name": "玉米油",
+      "nti": 10,
+      "agree_pearson": 0.9296,
+      "agree_pearson_log1p": 0.8998,
+      "base_T1": 150.9,
+      "base_T2": 84.4,
+      "learned_T1": 150.9,
+      "learned_T2": 84.4
+    },
+    {
+      "name": "环氧大豆油",
+      "nti": 20,
+      "agree_pearson": 0.9086,
+      "agree_pearson_log1p": 0.8995,
+      "base_T1": 66.3,
+      "base_T2": 28.1,
+      "learned_T1": 66.3,
+      "learned_T2": 28.1
+    },
+    {
+      "name": "甘油",
+      "nti": 20,
+      "agree_pearson": 0.8592,
+      "agree_pearson_log1p": 0.8142,
+      "base_T1": 41.4,
+      "base_T2": 23.4,
+      "learned_T1": 41.4,
+      "learned_T2": 23.4
+    },
+    {
+      "name": "红花籽油",
+      "nti": 10,
+      "agree_pearson": 0.9209,
+      "agree_pearson_log1p": 0.8818,
+      "base_T1": 169.7,
+      "base_T2": 92.4,
+      "learned_T1": 150.9,
+      "learned_T2": 92.4
+    },
+    {
+      "name": "芝麻油",
+      "nti": 20,
+      "agree_pearson": 0.9245,
+      "agree_pearson_log1p": 0.8895,
+      "base_T1": 134.1,
+      "base_T2": 84.4,
+      "learned_T1": 119.3,
+      "learned_T2": 84.4
+    },
+    {
+      "name": "花生油",
+      "nti": 20,
+      "agree_pearson": 0.9238,
+      "agree_pearson_log1p": 0.8925,
+      "base_T1": 119.3,
+      "base_T2": 77.0,
+      "learned_T1": 119.3,
+      "learned_T2": 84.4
+    },
+    {
+      "name": "菜籽油",
+      "nti": 10,
+      "agree_pearson": 0.9208,
+      "agree_pearson_log1p": 0.8793,
+      "base_T1": 150.9,
+      "base_T2": 92.4,
+      "learned_T1": 134.1,
+      "learned_T2": 92.4
+    },
+    {
+      "name": "葵花籽油",
+      "nti": 10,
+      "agree_pearson": 0.9316,
+      "agree_pearson_log1p": 0.9048,
+      "base_T1": 150.9,
+      "base_T2": 92.4,
+      "learned_T1": 150.9,
+      "learned_T2": 92.4
+    }
+  ]
+}

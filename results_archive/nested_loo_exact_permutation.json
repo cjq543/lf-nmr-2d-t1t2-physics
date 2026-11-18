@@ -1,0 +1,237 @@
+{
+  "PUFA": {
+    "2D_v2_nested_top1": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.6079,
+      "obs_loo_rmse": 13.74,
+      "obs_loo_spearman": 0.9167,
+      "obs_asymptotic_spearman_p": 0.00051,
+      "exact_perm_p_r2_ge_obs": 0.00837,
+      "exact_perm_p_rho_abs_ge_obs": 0.02548,
+      "exact_perm_p_rho_ge_obs": 0.00047,
+      "exact_perm_p_rho_le_obs": 0.9998,
+      "obs_preds": [
+        81.4968,
+        63.6016,
+        36.131,
+        45.3299,
+        77.9514,
+        37.7895,
+        39.5887,
+        37.3715,
+        44.0236
+      ]
+    },
+    "2D_v2_nested_top2": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.5197,
+      "obs_loo_rmse": 15.2,
+      "obs_loo_spearman": 0.8667,
+      "obs_asymptotic_spearman_p": 0.0025,
+      "exact_perm_p_r2_ge_obs": 0.01367,
+      "exact_perm_p_rho_abs_ge_obs": 0.0459,
+      "exact_perm_p_rho_ge_obs": 0.00289,
+      "exact_perm_p_rho_le_obs": 0.99803,
+      "obs_preds": [
+        50.4445,
+        62.9244,
+        34.7863,
+        46.0624,
+        75.3332,
+        36.418,
+        36.1924,
+        40.9583,
+        44.2945
+      ]
+    },
+    "2D_v2_nested_top3": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.609,
+      "obs_loo_rmse": 13.72,
+      "obs_loo_spearman": 0.8667,
+      "obs_asymptotic_spearman_p": 0.0025,
+      "exact_perm_p_r2_ge_obs": 0.00808,
+      "exact_perm_p_rho_abs_ge_obs": 0.03796,
+      "exact_perm_p_rho_ge_obs": 0.00361,
+      "exact_perm_p_rho_le_obs": 0.9975,
+      "obs_preds": [
+        60.1821,
+        64.9302,
+        33.1423,
+        47.2052,
+        74.6159,
+        34.998,
+        34.5988,
+        43.4666,
+        44.6781
+      ]
+    },
+    "2D_v2_all7_a3": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.6295,
+      "obs_loo_rmse": 13.35,
+      "obs_loo_spearman": 0.8,
+      "obs_asymptotic_spearman_p": 0.00963,
+      "exact_perm_p_r2_ge_obs": 0.00766,
+      "exact_perm_p_rho_abs_ge_obs": 0.07895,
+      "exact_perm_p_rho_ge_obs": 0.01137,
+      "exact_perm_p_rho_le_obs": 0.99072,
+      "obs_preds": [
+        67.8874,
+        60.0605,
+        33.6366,
+        54.3244,
+        91.7474,
+        28.3738,
+        31.0095,
+        46.9187,
+        49.516
+      ]
+    },
+    "2D_v2_T1_only": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.5724,
+      "obs_loo_rmse": 14.34,
+      "obs_loo_spearman": 0.7667,
+      "obs_asymptotic_spearman_p": 0.01594,
+      "exact_perm_p_r2_ge_obs": 0.01168,
+      "exact_perm_p_rho_abs_ge_obs": 0.19295,
+      "exact_perm_p_rho_ge_obs": 0.01019,
+      "exact_perm_p_rho_le_obs": 0.99248,
+      "obs_preds": [
+        82.6293,
+        58.4922,
+        40.0249,
+        51.6607,
+        79.0536,
+        25.0465,
+        30.3113,
+        38.6585,
+        47.6794
+      ]
+    },
+    "standalone_1D_CPMG_T2_shape_ridge": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.5688,
+      "obs_loo_rmse": 14.4,
+      "obs_loo_spearman": 0.6167,
+      "obs_asymptotic_spearman_p": 0.07693,
+      "exact_perm_p_r2_ge_obs": 0.0058,
+      "exact_perm_p_rho_abs_ge_obs": 0.36229,
+      "exact_perm_p_rho_ge_obs": 0.03876,
+      "exact_perm_p_rho_le_obs": 0.96497,
+      "obs_preds": [
+        63.0723,
+        48.6646,
+        7.7122,
+        52.2498,
+        69.4554,
+        36.3382,
+        43.0736,
+        65.1787,
+        59.527
+      ]
+    },
+    "standalone_1D_CPMG_T2_shape_brd": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.4228,
+      "obs_loo_rmse": 16.67,
+      "obs_loo_spearman": 0.5833,
+      "obs_asymptotic_spearman_p": 0.09919,
+      "exact_perm_p_r2_ge_obs": 0.02305,
+      "exact_perm_p_rho_abs_ge_obs": 0.37558,
+      "exact_perm_p_rho_ge_obs": 0.05243,
+      "exact_perm_p_rho_le_obs": 0.95238,
+      "obs_preds": [
+        61.0534,
+        68.8375,
+        35.9747,
+        50.9553,
+        71.079,
+        32.9441,
+        23.7044,
+        63.7347,
+        54.2917
+      ]
+    }
+  },
+  "SFA": {
+    "2D_v2_nested_top1": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.117,
+      "obs_loo_rmse": 2.97,
+      "obs_loo_spearman": 0.4286,
+      "obs_asymptotic_spearman_p": 0.24974,
+      "exact_perm_p_r2_ge_obs": 0.09175,
+      "exact_perm_p_rho_abs_ge_obs": 0.5227,
+      "exact_perm_p_rho_ge_obs": 0.0915,
+      "exact_perm_p_rho_le_obs": 0.91053,
+      "obs_preds": [
+        10.6369,
+        10.6755,
+        14.3476,
+        14.6155,
+        11.4618,
+        13.9405,
+        13.544,
+        13.4675,
+        10.1077
+      ]
+    },
+    "standalone_1D_CPMG_T2_shape_ridge": {
+      "n_perms": 362880,
+      "obs_loo_r2": 0.4347,
+      "obs_loo_rmse": 2.38,
+      "obs_loo_spearman": 0.8488,
+      "obs_asymptotic_spearman_p": 0.00381,
+      "exact_perm_p_r2_ge_obs": 0.01454,
+      "exact_perm_p_rho_abs_ge_obs": 0.11476,
+      "exact_perm_p_rho_ge_obs": 0.00352,
+      "exact_perm_p_rho_le_obs": 0.99695,
+      "obs_preds": [
+        8.9211,
+        14.431,
+        18.6241,
+        12.5117,
+        7.4227,
+        12.8302,
+        15.114,
+        10.9801,
+        11.1429
+      ]
+    }
+  },
+  "paired_2d_vs_1d": [
+    {
+      "pair": "2D_v2_nested_top1 vs 1D_CPMG_T2_shape_ridge",
+      "rmse_a": 13.74,
+      "rmse_b": 14.4,
+      "wins_sq_a_better": 6,
+      "exact_signflip_p_sq_err": 0.875,
+      "exact_signflip_p_abs_err": 0.9062,
+      "wilcoxon_p_sq_err": 0.8203,
+      "wilcoxon_p_abs_err": 0.7344
+    },
+    {
+      "pair": "2D_v2_T1_only vs 1D_CPMG_T2_shape_ridge",
+      "rmse_a": 14.34,
+      "rmse_b": 14.4,
+      "wins_sq_a_better": 5,
+      "exact_signflip_p_sq_err": 0.9922,
+      "exact_signflip_p_abs_err": 0.9805,
+      "wilcoxon_p_sq_err": 1.0,
+      "wilcoxon_p_abs_err": 0.9102
+    },
+    {
+      "pair": "2D_v2_nested_top1 vs 1D_CPMG_T2_shape_brd",
+      "rmse_a": 13.74,
+      "rmse_b": 16.67,
+      "wins_sq_a_better": 6,
+      "exact_signflip_p_sq_err": 0.625,
+      "exact_signflip_p_abs_err": 0.3945,
+      "wilcoxon_p_sq_err": 0.4961,
+      "wilcoxon_p_abs_err": 0.4258
+    }
+  ],
+  "wall_s": 30.44
+}

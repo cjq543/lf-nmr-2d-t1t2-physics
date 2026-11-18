@@ -1,0 +1,244 @@
+{
+  "source_features": "stats_and_1d2d.json -> sample_features_13[oil]['v2']",
+  "protocol": "N=4000, rng=20261115, Gaussian sigma in {1.0, 3.0, 5.0} pp on (SFA,MUFA,PUFA), clip>=0.5%, renorm=100%, survival: same_sign & p_asym<0.05",
+  "oils_n": 9,
+  "n_draws": 4000,
+  "provenance_note": {
+    "all_samples_features_matches_e4_fingerprint_max_abs_diff": 0.0,
+    "all_samples_features_matches_svd_ridge_fixed_rounded_max_abs_diff": 0.0
+  },
+  "base": {
+    "t1_fwhm_vs_PUFA": {
+      "rho": 0.9621,
+      "p": 3e-05
+    },
+    "t1_fwhm_vs_SFA": {
+      "rho": -0.3319,
+      "p": 0.38286
+    },
+    "mean_logT1_vs_PUFA": {
+      "rho": 0.8833,
+      "p": 0.00159
+    },
+    "mean_logT1_vs_SFA": {
+      "rho": -0.5799,
+      "p": 0.10171
+    },
+    "mean_logT2_vs_PUFA": {
+      "rho": 0.8833,
+      "p": 0.00159
+    },
+    "mean_logT2_vs_SFA": {
+      "rho": -0.5799,
+      "p": 0.10171
+    },
+    "t1_peak_vs_PUFA": {
+      "rho": 0.6949,
+      "p": 0.03774
+    },
+    "t1_peak_vs_SFA": {
+      "rho": -0.6918,
+      "p": 0.03898
+    },
+    "t2_fwhm_vs_PUFA": {
+      "rho": 0.5703,
+      "p": 0.10881
+    },
+    "t2_fwhm_vs_SFA": {
+      "rho": -0.1846,
+      "p": 0.63452
+    },
+    "t2_peak_vs_PUFA": {
+      "rho": 0.6481,
+      "p": 0.05904
+    },
+    "t2_peak_vs_SFA": {
+      "rho": -0.7411,
+      "p": 0.02234
+    },
+    "ratio_vs_PUFA": {
+      "rho": 0.4135,
+      "p": 0.26856
+    },
+    "ratio_vs_SFA": {
+      "rho": -0.4766,
+      "p": 0.1946
+    }
+  },
+  "levels": {
+    "sigma_1.0pp": {
+      "t1_fwhm_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "t1_fwhm_vs_SFA": {
+        "survival_p05": 0.0003,
+        "rho_gt05": 0.0195
+      },
+      "mean_logT1_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "mean_logT1_vs_SFA": {
+        "survival_p05": 0.0925,
+        "rho_gt05": 0.7422
+      },
+      "mean_logT2_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "mean_logT2_vs_SFA": {
+        "survival_p05": 0.0925,
+        "rho_gt05": 0.7422
+      },
+      "t1_peak_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "t1_peak_vs_SFA": {
+        "survival_p05": 0.5485,
+        "rho_gt05": 0.9788
+      },
+      "t2_fwhm_vs_PUFA": {
+        "survival_p05": 0.0,
+        "rho_gt05": 1.0
+      },
+      "t2_fwhm_vs_SFA": {
+        "survival_p05": 0.0,
+        "rho_gt05": 0.0003
+      },
+      "t2_peak_vs_PUFA": {
+        "survival_p05": 0.0005,
+        "rho_gt05": 1.0
+      },
+      "t2_peak_vs_SFA": {
+        "survival_p05": 0.8712,
+        "rho_gt05": 0.9992
+      },
+      "ratio_vs_PUFA": {
+        "survival_p05": 0.0,
+        "rho_gt05": 0.0693
+      },
+      "ratio_vs_SFA": {
+        "survival_p05": 0.0,
+        "rho_gt05": 0.184
+      }
+    },
+    "sigma_3.0pp": {
+      "t1_fwhm_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "t1_fwhm_vs_SFA": {
+        "survival_p05": 0.0275,
+        "rho_gt05": 0.1407
+      },
+      "mean_logT1_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "mean_logT1_vs_SFA": {
+        "survival_p05": 0.1732,
+        "rho_gt05": 0.4547
+      },
+      "mean_logT2_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "mean_logT2_vs_SFA": {
+        "survival_p05": 0.1732,
+        "rho_gt05": 0.4547
+      },
+      "t1_peak_vs_PUFA": {
+        "survival_p05": 0.9738,
+        "rho_gt05": 1.0
+      },
+      "t1_peak_vs_SFA": {
+        "survival_p05": 0.2338,
+        "rho_gt05": 0.598
+      },
+      "t2_fwhm_vs_PUFA": {
+        "survival_p05": 0.054,
+        "rho_gt05": 0.9065
+      },
+      "t2_fwhm_vs_SFA": {
+        "survival_p05": 0.006,
+        "rho_gt05": 0.054
+      },
+      "t2_peak_vs_PUFA": {
+        "survival_p05": 0.1648,
+        "rho_gt05": 0.9992
+      },
+      "t2_peak_vs_SFA": {
+        "survival_p05": 0.4577,
+        "rho_gt05": 0.7608
+      },
+      "ratio_vs_PUFA": {
+        "survival_p05": 0.0,
+        "rho_gt05": 0.2807
+      },
+      "ratio_vs_SFA": {
+        "survival_p05": 0.0398,
+        "rho_gt05": 0.2115
+      }
+    },
+    "sigma_5.0pp": {
+      "t1_fwhm_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "t1_fwhm_vs_SFA": {
+        "survival_p05": 0.045,
+        "rho_gt05": 0.146
+      },
+      "mean_logT1_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "mean_logT1_vs_SFA": {
+        "survival_p05": 0.117,
+        "rho_gt05": 0.3078
+      },
+      "mean_logT2_vs_PUFA": {
+        "survival_p05": 1.0,
+        "rho_gt05": 1.0
+      },
+      "mean_logT2_vs_SFA": {
+        "survival_p05": 0.117,
+        "rho_gt05": 0.3078
+      },
+      "t1_peak_vs_PUFA": {
+        "survival_p05": 0.8918,
+        "rho_gt05": 1.0
+      },
+      "t1_peak_vs_SFA": {
+        "survival_p05": 0.1598,
+        "rho_gt05": 0.3867
+      },
+      "t2_fwhm_vs_PUFA": {
+        "survival_p05": 0.1165,
+        "rho_gt05": 0.7967
+      },
+      "t2_fwhm_vs_SFA": {
+        "survival_p05": 0.021,
+        "rho_gt05": 0.1148
+      },
+      "t2_peak_vs_PUFA": {
+        "survival_p05": 0.2612,
+        "rho_gt05": 0.9775
+      },
+      "t2_peak_vs_SFA": {
+        "survival_p05": 0.252,
+        "rho_gt05": 0.497
+      },
+      "ratio_vs_PUFA": {
+        "survival_p05": 0.0013,
+        "rho_gt05": 0.2928
+      },
+      "ratio_vs_SFA": {
+        "survival_p05": 0.0595,
+        "rho_gt05": 0.208
+      }
+    }
+  }
+}
