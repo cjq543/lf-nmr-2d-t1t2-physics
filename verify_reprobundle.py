@@ -55,6 +55,7 @@ EXPECTED_JSONS = [
     "real_uncertainty_and_standards.json",
     "mechanism_ablations.json",
     "archive_audit_and_wood_probe.json",
+    "historical_strict_odd_even_eval.json",
 ]
 
 ALLOWED_PTHS = {
@@ -184,6 +185,7 @@ def main():
         "e9_rock_retrain",
         "label_sensitivity",
         "eval_synthetic_benchmark",
+        "eval_historical_strict_odd_even",
     ]
     for rel, p in found.items():
         if rel.endswith(".py"):

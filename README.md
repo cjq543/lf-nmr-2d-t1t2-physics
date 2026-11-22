@@ -58,12 +58,13 @@ python -B verify_reprobundle.py
 - `e1_sign_ablation.py`, `e2_lambda_protocol.py`, `e2b_peak_err_table1.py`, `e3_subsampling.py`, `e6_snr_robustness.py`, `e7_component_robustness.py` — Deterministic synthetic ablation & robustness protocols.
 - `stats_and_1d2d.py`, `run_hardening_benchmarks.py`, `label_sensitivity.py` — SVD effective-rank audit, $9!$ exact permutation tests (plus whole-pipeline $9!$ nested-LOO & $2^9$ paired 1D/2D residual audit in `results_archive/nested_loo_exact_permutation.json`), Holm-Bonferroni correction, nested LOO regression, H1/H2/H3/H4 hardening framework, and Monte Carlo `N=4,000` Gaussian label-noise sensitivity (`label_sensitivity.py` executes completely offline on `results_archive/`; raw 23 MHz acquisitions required only to re-derive raw tables).
 - `e8_cross_material.py`, `e8_sr_alignment.py`, `e9_rock_retrain.py` — Cross-instrument 2.0 MHz porous-rock boundary, SR-alignment negative control, and dedicated wide-grid SR rock retraining (`e9_v2rock_seed{1,2,3}.pth`; synthetic wide-grid `H1` benchmark executes offline, while raw `H2/H4` core re-evaluation uses external `NMR2_ROCK_DATA_DIR`, and `results_archive/` stores anonymized cohort-level summary statistics without per-record external core/wood identifiers or raw filenames).
+- `eval_historical_strict_odd_even.py` — Post-freeze retrospective 23 MHz workstation-archive evaluation (`n = 11` porcine liver–lard phantoms with paired standalone 1D IR/CPMG, plus `Lard_01` and `Std_C57H98O12_2022`, Table S13 / Note S8.4) under strict zero-even-leakage `Odd → Even` calibration; verifies `results_archive/historical_strict_odd_even_eval.json` offline by default, or re-evaluates restricted raw archives via `--archive-root` / `NMR2_HISTORICAL_ARCHIVE_DIR`.
 
 ### Sanitized Derived Archives (`results_archive/`)
 - `v2_summary.json`, `table1_peak_err.json`, `e1_sign_ablation.json`, `e2_lambda_protocol.json`, `e3_subsampling.json`, `e6_snr_robustness.json`, `e7_component_robustness.json`
 - `v2_real_eval.json`, `e4_fingerprint.json`, `all_samples_features.json`, `adaptive_baseline.json`, `sparse_l1_baseline.json`, `frontend_precision_sensitivity.json`
 - `stats_and_1d2d.json`, `hardening_results.json`, `nested_loo_exact_permutation.json`, `real_uncertainty_and_standards.json`, `label_sensitivity.json`, `label_sensitivity_v2_stats.json`, `dlemlr_results.json`, `dlemlr_fair_audit.json`
-- `vendor_xls_audit.json`, `e8_cross_material.json`, `e8_sr_alignment.json`, `e9_rock_retrain.json`
+- `vendor_xls_audit.json`, `e8_cross_material.json`, `e8_sr_alignment.json`, `e9_rock_retrain.json`, `mechanism_ablations.json`, `archive_audit_and_wood_probe.json`, `historical_strict_odd_even_eval.json`
 
 ---
 
